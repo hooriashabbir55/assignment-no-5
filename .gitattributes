@@ -1,2 +1,103 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h2 align="center">Student Registration Form</h2>
+
+  <form action="#" method="post">
+
+    <table border="1" align="center" cellpadding="10" cellspacing="0">
+
+      <tr>
+        <td>First Name</td>
+        <td><input type="text" name="firstName" placeholder="Enter First Name" required></td>
+      </tr>
+
+      <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="lastName" placeholder="Enter Last Name" required></td>
+      </tr>
+
+      <tr>
+        <td>Father’s Name</td>
+        <td><input type="text" name="fatherName" placeholder="Enter Father’s Name" required></td>
+      </tr>
+
+      <tr>
+        <td>Date of Birth</td>
+        <td><input type="date" name="dob" required></td>
+      </tr>
+
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="Male" required> Male
+          <input type="radio" name="gender" value="Female"> Female
+          <input type="radio" name="gender" value="Other"> Other
+        </td>
+      </tr>
+
+      <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" placeholder="Enter Email Address" required></td>
+      </tr>
+
+      <tr>
+        <td>Phone Number</td>
+        <td><input type="tel" name="phone" placeholder="Enter 10-digit Mobile No." maxlength="10" required></td>
+      </tr>
+
+      <tr>
+        <td>Address</td>
+        <td><textarea name="address" rows="4" cols="40" placeholder="Enter Full Address" required></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Department</td>
+        <td>
+          <select name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="CSE">Computer Science</option>
+            <option value="IT">Information Technology</option>
+            <option value="ECE">Electronics</option>
+            <option value="Civil">Civil</option>
+            <option value="Mechanical">Mechanical</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Course</td>
+        <td>
+          <input type="checkbox" name="course" value="B.Tech"> B.Tech
+          <input type="checkbox" name="course" value="BCA"> BCA
+          <input type="checkbox" name="course" value="MCA"> MCA
+          <input type="checkbox" name="course" value="MBA"> MBA
+        </td>
+      </tr>
+
+      <tr>
+        <td>Upload Photo</td>
+        <td><input type="file" name="photo" accept="image/*"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Register">
+          <input type="reset" value="Clear Form">
+        </td>
+      </tr>
+
+    </table>
+
+  </form>
+
+</body>
+</html>
